@@ -25,5 +25,15 @@ public class TaskController {
     public Task crear(@RequestBody Task task) {
         return taskService.crear(task);
     }
+
+    @PutMapping("/{id}/completada")
+    public Task actualizarEstado(@PathVariable Long id, @RequestParam boolean completada) {
+        return taskService.actualizarEstado(id, completada);
+    }
+
+    @DeleteMapping("/{id}")
+    public boolean eliminar(@PathVariable Long id) {
+        return taskService.eliminar(id);
+    }
 }
 //hola
