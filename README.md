@@ -1,5 +1,19 @@
 # git-tbd-actividad
 
+Historial de trabajo en equipo
+Este proyecto fue trabajado en equipo siguiendo el flujo de Trunk-Based Development:
+
+Carlos Bastias: se encargó de realizar el fork del repositorio oficial y posteriormente creó un Pull Request con cambios propios.
+
+Fabián Sánchez: creó la rama dev y realizó un commit inicial en ella.
+
+Carlos Bastias: gestionó el primer Pull Request hacia la rama principal (main).
+
+Fabián Sánchez: posteriormente realizó otro Pull Request con cambios adicionales.
+
+De esta forma, se practicó el ciclo completo: fork → rama → commit → Pull Request → merge, tal como se indica en la guía de trabajo
+
+
 Proyecto base (Java 17 + Spring Boot) para la actividad práctica de la clase
 **1.1.2 Git y Modelos de Trabajo** — DOY0101 Ingeniería DevOps.
 
