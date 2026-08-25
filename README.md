@@ -12,7 +12,7 @@ API REST simple para gestionar una lista de tareas (`Task`), desarrollada en **J
 **Pasos:**
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Saitraru/git-tbd-actividad.git
+git clone https://github.com/CarlosBastias/git-tbd-actividad.git
 cd git-tbd-actividad
 
 # Ejecutar la aplicación
