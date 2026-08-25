@@ -27,4 +27,18 @@ public class TaskService {
         tasks.add(nueva);
         return nueva;
     }
+
+    public Task actualizarEstado(Long id, boolean completada) {
+        for (Task task : tasks) {
+            if (task.getId().equals(id)) {
+                task.setCompletada(completada);
+                return task;
+            }
+        }
+        return null; // o lanzar excepción si no se encuentra
+    }
+
+    public boolean eliminar(Long id) {
+        return tasks.removeIf(task -> task.getId().equals(id));
+    }
 }
